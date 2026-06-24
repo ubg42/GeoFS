@@ -1,0 +1,305 @@
+{
+    "accessors": {
+        "accessor_16": {
+            "bufferView": "bufferView_22",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 495,
+            "max": [
+                107
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_18": {
+            "bufferView": "bufferView_23",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 144,
+            "max": [
+                7.80076,
+                5.66465,
+                1.10734
+            ],
+            "min": [
+                -7.80164,
+                -5.23036,
+                -1.03459
+            ],
+            "type": "VEC3"
+        },
+        "accessor_20": {
+            "bufferView": "bufferView_23",
+            "byteOffset": 1728,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 144,
+            "max": [
+                0.997653,
+                0.993599,
+                1
+            ],
+            "min": [
+                -0.999341,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@6779c094d694e951beeb1012d03d4faa1edb0ddf",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0.1"
+    },
+    "bufferViews": {
+        "bufferView_22": {
+            "buffer": "\\PROJECTS\\GeoFS\\tools\\collada2gltf\\convert\\gltf\\multiplayer-low",
+            "byteLength": 992,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_23": {
+            "buffer": "\\PROJECTS\\GeoFS\\tools\\collada2gltf\\convert\\gltf\\multiplayer-low",
+            "byteLength": 3456,
+            "byteOffset": 992,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "\\PROJECTS\\GeoFS\\tools\\collada2gltf\\convert\\gltf\\multiplayer-low": {
+            "byteLength": 4448,
+            "type": "arraybuffer",
+            "uri": "data:application/octet-stream;base64,AAABAAIAAwAEAAUABgAHAAgACQAKAAsADAAGAAcADQAHAAYADgAPABAAEQADABIAEwASAAMAFAAVABYAFwAYABkAGgAbABwAHQAeAB8AIAAhACIAIwAKACQADgABACUAGwAaACYAJwAZACgAKQAWACoAAwAAABMAEQAEAAMABwArAAwACgAsAC0ABwAGAC4ALQAkAAoACwAvADAAMQAyADMANAAPADEAMgAxAA8AHAAFABoANQA2ADcAOAA5ADoANgA7ADcAOQA8ADoABgASAA0ACAASAAYAPQAKACMACgA9AD4ACgA9ACMAPQAKAD8ADAAgAAYAMABAAAwAQQAzADIADwBBADIAQgBDAEQAQgBFAEYAAQBHACUAQgBEAEgASQBKABQAGQAnAEsAKwBMAE0ACgAJAE4ATwBQAAIANAAQAA8AKQAYABcAFAAWACkAUQBSAFMAKAAZABgAVABVADMAQQAPAFUAVgBXAEUARQBXAFYAWABZAFoAWwBaAFkAXABdAA4AJgAPAA4AMAAtAFgAXgBfAGAAIQAwAGEAYgBfAGMAZAAuACwADAALADAAZQBmAGcAHAAbAEcAQgBGAGgAJwAWABUASwBKABkAFQAUAEoABAARAGkAagAaAGsABQAEAGoAAAADAAEAHAADAAUAVwBsAG0AbQBsAFcAbgBvAHAAcQAIAAcAWABbAFkAWABhADAAWgBhAFgAWwBYACEAcgBsAEYASABFAEIAcgBXAGwAVwBFAEgASgBJABkASQAXABkAYQBaAHMAYQBzAFoAXQAmAA4AXQAbACYAQAAgAAwAQAAhACAAUAAAAAIACwAkAC8ALQAvACQAIQAsACIAKQAqAHQAdQB2AHcACwAjACQACwAKACMABwBMACsAVQAPADMAagAzABoAZgBlAHgACQArAE0AaQATAAAAeQB6AHsAJgAaAA8AGgAzAA8ABwANAHEAbwBuAHwAAwAcAAEAAQAcAEcATwACABAAHwB9AB0ASABsAFcAbABIAEYATQBOAAkAEAA0AE8ASgBLABUAJwAVAEsARABGAEgAJQBcAA4AfgB/AIAAgQCCAIMAIgAuAAYAIAAiAAYAWwBhAFoAYQBbACEAagBrAAUAKQAXABQAhACFAIYAIQAtACwALQAhAFgAhwCIAIkAigCLAIwAMQBqADQAagAxADMAdwCNAHUA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"
+        }
+    },
+    "materials": {
+        "_2_-_Default": {
+            "name": "_2_-_Default",
+            "technique": "technique0",
+            "values": {
+                "ambient": [
+                    0.266667,
+                    0.615686,
+                    0.745098,
+                    1
+                ],
+                "diffuse": [
+                    0.266667,
+                    0.615686,
+                    0.745098,
+                    1
+                ],
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 10,
+                "specular": [
+                    0,
+                    0,
+                    0,
+                    1
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "geom-body": {
+            "name": "body",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_20",
+                        "POSITION": "accessor_18"
+                    },
+                    "indices": "accessor_16",
+                    "material": "_2_-_Default",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node-body": {
+            "children": [
+                "node_2"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                2.73987e-011,
+                -0.000626812,
+                1
+            ],
+            "name": "body"
+        },
+        "node_0": {
+            "children": [],
+            "name": "EnvironmentAmbientLight"
+        },
+        "node_2": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0.996435,
+                -0.0843606,
+                0,
+                0,
+                0.0843606,
+                0.996435,
+                0,
+                0,
+                -1.76876,
+                0.127158,
+                1
+            ],
+            "meshes": [
+                "geom-body"
+            ],
+            "name": ""
+        },
+        "node_3": {
+            "children": [
+                "node_0",
+                "node-body"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "\\PROJECTS\\GeoFS\\tools\\collada2gltf\\convert\\gltf\\multiplayer-low0FS",
+            "vertexShader": "\\PROJECTS\\GeoFS\\tools\\collada2gltf\\convert\\gltf\\multiplayer-low0VS"
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_3"
+            ]
+        }
+    },
+    "shaders": {
+        "\\PROJECTS\\GeoFS\\tools\\collada2gltf\\convert\\gltf\\multiplayer-low0FS": {
+            "type": 35632,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0Owp2YXJ5aW5nIHZlYzMgdl9ub3JtYWw7CnVuaWZvcm0gdmVjNCB1X2FtYmllbnQ7CnVuaWZvcm0gdmVjNCB1X2RpZmZ1c2U7CnVuaWZvcm0gdmVjNCB1X2VtaXNzaW9uOwp1bmlmb3JtIHZlYzQgdV9zcGVjdWxhcjsKdW5pZm9ybSBmbG9hdCB1X3NoaW5pbmVzczsKdm9pZCBtYWluKHZvaWQpIHsKdmVjMyBub3JtYWwgPSBub3JtYWxpemUodl9ub3JtYWwpOwp2ZWM0IGNvbG9yID0gdmVjNCgwLiwgMC4sIDAuLCAwLik7CnZlYzQgZGlmZnVzZSA9IHZlYzQoMC4sIDAuLCAwLiwgMS4pOwp2ZWM0IGVtaXNzaW9uOwp2ZWM0IGFtYmllbnQ7CnZlYzQgc3BlY3VsYXI7CmFtYmllbnQgPSB1X2FtYmllbnQ7CmRpZmZ1c2UgPSB1X2RpZmZ1c2U7CmVtaXNzaW9uID0gdV9lbWlzc2lvbjsKc3BlY3VsYXIgPSB1X3NwZWN1bGFyOwpkaWZmdXNlLnh5eiAqPSBtYXgoZG90KG5vcm1hbCx2ZWMzKDAuLDAuLDEuKSksIDAuKTsKY29sb3IueHl6ICs9IGRpZmZ1c2UueHl6Owpjb2xvci54eXogKz0gZW1pc3Npb24ueHl6Owpjb2xvciA9IHZlYzQoY29sb3IucmdiICogZGlmZnVzZS5hLCBkaWZmdXNlLmEpOwpnbF9GcmFnQ29sb3IgPSBjb2xvcjsKfQo="
+        },
+        "\\PROJECTS\\GeoFS\\tools\\collada2gltf\\convert\\gltf\\multiplayer-low0VS": {
+            "type": 35633,
+            "uri": "data:text/plain;base64,cHJlY2lzaW9uIGhpZ2hwIGZsb2F0OwphdHRyaWJ1dGUgdmVjMyBhX3Bvc2l0aW9uOwphdHRyaWJ1dGUgdmVjMyBhX25vcm1hbDsKdmFyeWluZyB2ZWMzIHZfbm9ybWFsOwp1bmlmb3JtIG1hdDMgdV9ub3JtYWxNYXRyaXg7CnVuaWZvcm0gbWF0NCB1X21vZGVsVmlld01hdHJpeDsKdW5pZm9ybSBtYXQ0IHVfcHJvamVjdGlvbk1hdHJpeDsKdm9pZCBtYWluKHZvaWQpIHsKdmVjNCBwb3MgPSB1X21vZGVsVmlld01hdHJpeCAqIHZlYzQoYV9wb3NpdGlvbiwxLjApOwp2X25vcm1hbCA9IHVfbm9ybWFsTWF0cml4ICogYV9ub3JtYWw7CmdsX1Bvc2l0aW9uID0gdV9wcm9qZWN0aW9uTWF0cml4ICogcG9zOwp9Cg=="
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35666
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    }
+}

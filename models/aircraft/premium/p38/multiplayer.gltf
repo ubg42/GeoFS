@@ -1,0 +1,613 @@
+{
+    "accessors": {
+        "accessor_38": {
+            "bufferView": "bufferView_76",
+            "byteOffset": 0,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 24483,
+            "max": [
+                6474
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_41": {
+            "bufferView": "bufferView_76",
+            "byteOffset": 48966,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 570,
+            "max": [
+                10049
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_43": {
+            "bufferView": "bufferView_77",
+            "byteOffset": 0,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 10146,
+            "max": [
+                8.03436,
+                5.73738,
+                1.1145
+            ],
+            "min": [
+                -8.03436,
+                -5.73178,
+                -1.03459
+            ],
+            "type": "VEC3"
+        },
+        "accessor_45": {
+            "bufferView": "bufferView_77",
+            "byteOffset": 121752,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 10146,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_47": {
+            "bufferView": "bufferView_77",
+            "byteOffset": 243504,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 10146,
+            "max": [
+                0.998856,
+                0.996353
+            ],
+            "min": [
+                -0.336082,
+                0.000519276
+            ],
+            "type": "VEC2"
+        },
+        "accessor_68": {
+            "bufferView": "bufferView_76",
+            "byteOffset": 50106,
+            "byteStride": 2,
+            "componentType": 5123,
+            "count": 4851,
+            "max": [
+                1240
+            ],
+            "min": [
+                0
+            ],
+            "type": "SCALAR"
+        },
+        "accessor_70": {
+            "bufferView": "bufferView_77",
+            "byteOffset": 324672,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1923,
+            "max": [
+                2.93691,
+                4.88585,
+                -0.230982
+            ],
+            "min": [
+                -2.958,
+                -0.772398,
+                -1.9564
+            ],
+            "type": "VEC3"
+        },
+        "accessor_72": {
+            "bufferView": "bufferView_77",
+            "byteOffset": 347748,
+            "byteStride": 12,
+            "componentType": 5126,
+            "count": 1923,
+            "max": [
+                1,
+                1,
+                1
+            ],
+            "min": [
+                -1,
+                -1,
+                -1
+            ],
+            "type": "VEC3"
+        },
+        "accessor_74": {
+            "bufferView": "bufferView_77",
+            "byteOffset": 370824,
+            "byteStride": 8,
+            "componentType": 5126,
+            "count": 1923,
+            "max": [
+                0.996887,
+                0.938507
+            ],
+            "min": [
+                0.069498,
+                0.00494498
+            ],
+            "type": "VEC2"
+        }
+    },
+    "animations": {},
+    "asset": {
+        "generator": "collada2gltf@6779c094d694e951beeb1012d03d4faa1edb0ddf",
+        "premultipliedAlpha": true,
+        "profile": {
+            "api": "WebGL",
+            "version": "1.0.2"
+        },
+        "version": "1.0.1"
+    },
+    "bufferViews": {
+        "bufferView_76": {
+            "buffer": "multiplayer",
+            "byteLength": 59808,
+            "byteOffset": 0,
+            "target": 34963
+        },
+        "bufferView_77": {
+            "buffer": "multiplayer",
+            "byteLength": 386208,
+            "byteOffset": 59808,
+            "target": 34962
+        }
+    },
+    "buffers": {
+        "multiplayer": {
+            "byteLength": 446016,
+            "type": "arraybuffer",
+            "uri": "multiplayer.bin"
+        }
+    },
+    "images": {
+        "texture_jpg": {
+            "name": "texture_jpg",
+            "uri": "texture-low_0.jpg"
+        }
+    },
+    "materials": {
+        "glass": {
+            "name": "glass",
+            "technique": "technique0",
+            "values": {
+                "ambient": [
+                    0.588,
+                    0.588,
+                    0.588,
+                    1
+                ],
+                "diffuse": [
+                    0.588,
+                    0.588,
+                    0.588,
+                    1
+                ],
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 39,
+                "transparency": 0.05
+            }
+        },
+        "main": {
+            "name": "main",
+            "technique": "technique1",
+            "values": {
+                "ambient": "texture_texture_jpg",
+                "diffuse": "texture_texture_jpg",
+                "emission": [
+                    0,
+                    0,
+                    0,
+                    1
+                ],
+                "shininess": 50,
+                "specular": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            }
+        }
+    },
+    "meshes": {
+        "geom-body": {
+            "name": "body",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_45",
+                        "POSITION": "accessor_43",
+                        "TEXCOORD_0": "accessor_47"
+                    },
+                    "indices": "accessor_38",
+                    "material": "main",
+                    "mode": 4
+                },
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_45",
+                        "POSITION": "accessor_43"
+                    },
+                    "indices": "accessor_41",
+                    "material": "glass",
+                    "mode": 4
+                }
+            ]
+        },
+        "geom-gear": {
+            "name": "gear",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": "accessor_72",
+                        "POSITION": "accessor_70",
+                        "TEXCOORD_0": "accessor_74"
+                    },
+                    "indices": "accessor_68",
+                    "material": "main",
+                    "mode": 4
+                }
+            ]
+        }
+    },
+    "nodes": {
+        "node-body": {
+            "children": [
+                "node_2",
+                "node-gear"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                2.73987e-011,
+                -0.000626812,
+                1
+            ],
+            "name": "body"
+        },
+        "node-gear": {
+            "children": [
+                "node_4"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0.996435,
+                -0.0843606,
+                0,
+                0,
+                0.0843606,
+                0.996435,
+                0,
+                -0.00523744,
+                2.43,
+                -0.588632,
+                1
+            ],
+            "name": "gear"
+        },
+        "node_0": {
+            "children": [],
+            "name": "EnvironmentAmbientLight"
+        },
+        "node_2": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0.996435,
+                -0.0843606,
+                0,
+                0,
+                0.0843606,
+                0.996435,
+                0,
+                0,
+                -1.76876,
+                0.127158,
+                1
+            ],
+            "meshes": [
+                "geom-body"
+            ],
+            "name": ""
+        },
+        "node_4": {
+            "children": [],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                1,
+                0,
+                0.00523744,
+                -4.24417,
+                0.359028,
+                1
+            ],
+            "meshes": [
+                "geom-gear"
+            ],
+            "name": ""
+        },
+        "node_5": {
+            "children": [
+                "node_0",
+                "node-body"
+            ],
+            "matrix": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -1,
+                0,
+                0,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ],
+            "name": "Y_UP_Transform"
+        }
+    },
+    "programs": {
+        "program_0": {
+            "attributes": [
+                "a_normal",
+                "a_position"
+            ],
+            "fragmentShader": "multiplayer0FS",
+            "vertexShader": "multiplayer0VS"
+        },
+        "program_1": {
+            "attributes": [
+                "a_normal",
+                "a_position",
+                "a_texcoord0"
+            ],
+            "fragmentShader": "multiplayer1FS",
+            "vertexShader": "multiplayer1VS"
+        }
+    },
+    "samplers": {
+        "sampler_0": {
+            "magFilter": 9729,
+            "minFilter": 9729,
+            "wrapS": 10497,
+            "wrapT": 10497
+        }
+    },
+    "scene": "defaultScene",
+    "scenes": {
+        "defaultScene": {
+            "nodes": [
+                "node_5"
+            ]
+        }
+    },
+    "shaders": {
+        "multiplayer0FS": {
+            "type": 35632,
+            "uri": "../../../../shaders/simpleGlassFS.glsl"
+        },
+        "multiplayer0VS": {
+            "type": 35633,
+            "uri": "../../../../shaders/baseVS.glsl"
+        },
+        "multiplayer1FS": {
+            "type": 35632,
+            "uri": "../../../../shaders/multiplayerFS.glsl"
+        },
+        "multiplayer1VS": {
+            "type": 35633,
+            "uri": "../../../../shaders/baseVS.glsl"
+        }
+    },
+    "skins": {},
+    "techniques": {
+        "technique0": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35666
+                },
+                "diffuse": {
+                    "type": 35666
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "transparency": {
+                    "type": 5126
+                }
+            },
+            "program": "program_0",
+            "states": {
+                "enable": [
+                    2929,
+                    3042
+                ],
+                "functions": {
+                    "blendEquationSeparate": [
+                        32774,
+                        32774
+                    ],
+                    "blendFuncSeparate": [
+                        1,
+                        771,
+                        1,
+                        771
+                    ],
+                    "depthMask": [
+                        false
+                    ]
+                }
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_transparency": "transparency"
+            }
+        },
+        "technique1": {
+            "attributes": {
+                "a_normal": "normal",
+                "a_position": "position",
+                "a_texcoord0": "texcoord0"
+            },
+            "parameters": {
+                "ambient": {
+                    "type": 35678
+                },
+                "diffuse": {
+                    "type": 35678
+                },
+                "emission": {
+                    "type": 35666
+                },
+                "modelViewMatrix": {
+                    "semantic": "MODELVIEW",
+                    "type": 35676
+                },
+                "normal": {
+                    "semantic": "NORMAL",
+                    "type": 35665
+                },
+                "normalMatrix": {
+                    "semantic": "MODELVIEWINVERSETRANSPOSE",
+                    "type": 35675
+                },
+                "position": {
+                    "semantic": "POSITION",
+                    "type": 35665
+                },
+                "projectionMatrix": {
+                    "semantic": "PROJECTION",
+                    "type": 35676
+                },
+                "shininess": {
+                    "type": 5126
+                },
+                "specular": {
+                    "type": 35666
+                },
+                "texcoord0": {
+                    "semantic": "TEXCOORD_0",
+                    "type": 35664
+                }
+            },
+            "program": "program_1",
+            "states": {
+                "enable": [
+                    2929,
+                    2884
+                ]
+            },
+            "uniforms": {
+                "u_ambient": "ambient",
+                "u_diffuse": "diffuse",
+                "u_emission": "emission",
+                "u_modelViewMatrix": "modelViewMatrix",
+                "u_normalMatrix": "normalMatrix",
+                "u_projectionMatrix": "projectionMatrix",
+                "u_shininess": "shininess",
+                "u_specular": "specular"
+            }
+        }
+    },
+    "textures": {
+        "texture_texture_jpg": {
+            "format": 6408,
+            "internalFormat": 6408,
+            "sampler": "sampler_0",
+            "source": "texture_jpg",
+            "target": 3553,
+            "type": 5121
+        }
+    }
+}
