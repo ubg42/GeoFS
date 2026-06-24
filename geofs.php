@@ -34,8 +34,8 @@
 
     <link rel="canonical" href="https://www.geo-fs.com/geofs.php">
 
-    <link rel="shortcut icon" href="/images/icons/favicon.ico" />
-    <link rel='apple-touch-icon' href='/images/icons/apple-touch-icon.png'>
+    <link rel="shortcut icon" href="images/icons/favicon.ico" />
+    <link rel='apple-touch-icon' href='images/icons/apple-touch-icon.png'>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="description" content="Fly directly in your web browser without anything to download or to install.">
@@ -45,7 +45,7 @@
     <meta property="og:title" content="GeoFS - The Accessible Flight Simulator" />
     <meta property="og:type" content="game" />
     <meta property="og:url" content="https://www.geo-fs.com/" />
-    <meta property="og:image" content="https://www.geo-fs.com/images/poster.jpg" />
+    <meta property="og:image" content="https://www.geo-fs.comimages/poster.jpg" />
     <meta property="og:description" content="Fly for free, directly in your web browser, without anything to download or to install." />
 
     <link rel="shortcut icon" href="favicon.ico">
@@ -121,7 +121,7 @@ window.addEventListener('load', function() {
     <!-- Common CSS -->
     <link rel="stylesheet" type="text/css" href="/css/commonCSS.css?kc=22" media="screen"/>
     <!-- Common JS -->
-    <script data-deferredsrc="/js/commonJS.js?kc=17"></script>
+    <script data-deferredsrc="js/commonJS.js?kc=17"></script>
     <!-- 3rd parties -->
     
     
@@ -165,7 +165,7 @@ window.addEventListener('load', function() {
     <script data-deferredsrc="/data/airports.js"></script>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HB7Z4Z74PE"></script>
+    <script async src="https://www.googletagmanager.com/gtagimages/?id=G-HB7Z4Z74PE"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -174,7 +174,7 @@ window.addEventListener('load', function() {
       gtag('config', 'G-HB7Z4Z74PE');
     </script>
 
-<script>geofs.PRODUCTION = true;geofs.killCache = '?kc=1729598422';</script><script data-deferredsrc="/js/geofs.js?kc=398"></script><link rel="stylesheet" type="text/css" href="css/geofs.css?kc=23" media="screen"/>
+<script>geofs.PRODUCTION = true;geofs.killCache = '?kc=1729598422';</script><script data-deferredsrc="js/geofs.js?kc=398"></script><link rel="stylesheet" type="text/css" href="css/geofs.css?kc=23" media="screen"/>
 
 <style>.mdl-ripple { background: #000; opacity: 0.001; }</style>
 </head>
@@ -195,12 +195,12 @@ window.addEventListener('load', function() {
                 <div class="geofs-authForm">
                 
                     
-                    <img data-deferredsrc="/images/facebook-login.png" class="geofs-facebook-login geofs-hideForApp" alt="Facebook login button" />
+                    <img data-deferredsrc="images/facebook-login.png" class="geofs-facebook-login geofs-hideForApp" alt="Facebook login button" />
                     <!--<div class="fb-login-button" data-size="large" data-show-faces="false" data-auto-logout-link="false" onlogin="loginFacebook" data-scope="public_profile, email"></div>-->
                     <!--<div class="fb-login-button" data-width="90" data-size="medium" data-button-type="" data-layout="" data-auto-logout-link="false" data-use-continue-as="false"></div>-->
 
                     <div class="geofs-google-signin google-signin geofs-hideForApp" id="google-signin1"></div>
-                                <a href="/pages/instructions.php" target="_blank" class="geofs-help geofs-hideForMobile">
+                                <a href="pages/instructions.php" target="_blank" class="geofs-help geofs-hideForMobile">
                     <i class="material-icons">help_outline</i>
                 </a>
             </div>
@@ -357,9 +357,9 @@ window.addEventListener('load', function() {
                 <div class="geofs-player-count" data-toggle-panel=".geofs-player-list"></div>
 
                 <a href="/pages/hd.php" target="_blank">
-                    <img data-deferredsrc="/images/sd-logo.png" class="geofs-sd-logo" title="Standard definition: Sentinel-2">
-                    <img data-deferredsrc="/images/sr-logo.png" class="geofs-sr-logo" title="Super Resolution: Ai2 Satlas">
-                    <img data-deferredsrc="/images/hd-logo.png" class="geofs-hd-logo" title="High Definition: Microsoft Bing">
+                    <img data-deferredsrc="images/sd-logo.png" class="geofs-sd-logo" title="Standard definition: Sentinel-2">
+                    <img data-deferredsrc="images/sr-logo.png" class="geofs-sr-logo" title="Super Resolution: Ai2 Satlas">
+                    <img data-deferredsrc="images/hd-logo.png" class="geofs-hd-logo" title="High Definition: Microsoft Bing">
                 </a>
 
                 <!-- Chat section -->
@@ -422,7 +422,7 @@ window.addEventListener('load', function() {
 
             <fieldset>
                 <legend>
-                    <a href="https://dispatch.simbrief.com/home" target="_blank" rel="nofollow"><img data-deferredsrc="/images/simbrieflogo.png" style="float: left; margin-right: 10px; margin-top: 4px;" /></a>
+                    <a href="https://dispatch.simbrief.com/home" target="_blank" rel="nofollow"><img data-deferredsrc="images/simbrieflogo.png" style="float: left; margin-right: 10px; margin-top: 4px;" /></a>
                 </legend>
                 If you have a <a href="https://dispatch.simbrief.com/home" target="_blank" rel="nofollow">Navigraph SimBrief</a> account, enter your username here to be able to import your latest flight plan directly into GeoFS.
                 <div class="mdl-textfield mdl-js-textfield">
@@ -843,7 +843,7 @@ window.addEventListener('load', function() {
 
 
                 <span class="geofs-hideForApp geofs-hideForSchool" style="display: inline-block; margin: 10px 0px 25px 0px;">
-                    <a href="https://disboard.org/servers/tag/geofs?sort=-member_count" target="_blank" rel="nofollow"><img data-deferredsrc="/images/discord.png" style="margin: 10px 10px 10px 0px;"/></a>
+                    <a href="https://disboard.org/servers/tag/geofs?sort=-member_count" target="_blank" rel="nofollow"><img data-deferredsrc="images/discord.png" style="margin: 10px 10px 10px 0px;"/></a>
                     For voice communication and community events, join one of the many <a href="https://disboard.org/servers/tag/geofs?sort=-member_count" target="_blank" rel="nofollow">GeoFS related Discord servers listed on Disboard.org</a>
                 </span>
 
@@ -940,7 +940,7 @@ window.addEventListener('load', function() {
                 </legend>
                 <div class="geofs-SDImagerySelector">
                     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="sdImagery" style="margin: 10px;">
-                        <img data-deferredsrc="/images/sd-logo.png" class="geofs-dataSourceLogo"/>
+                        <img data-deferredsrc="images/sd-logo.png" class="geofs-dataSourceLogo"/>
                         <input type="radio" id="sdImagery" class="mdl-radio__button"
                             name="dataprovider"
                             data-update="{geofs.api.setDataProvider(value)}"
@@ -951,7 +951,7 @@ window.addEventListener('load', function() {
                 </div>
                 <div class="geofs-SRImagerySelector" style="position: relative;">
                     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="srImagery" style="margin: 10px;">
-                        <img data-deferredsrc="/images/sr-logo.png" class="geofs-dataSourceLogo"/>
+                        <img data-deferredsrc="images/sr-logo.png" class="geofs-dataSourceLogo"/>
                         <input type="radio" id="srImagery" class="mdl-radio__button"
                             name="dataprovider"
                             data-update="{geofs.api.setDataProvider(value)}"
@@ -969,7 +969,7 @@ window.addEventListener('load', function() {
                 </div>
                 <div class="geofs-HDImagerySelector">
                     <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="hdImagery" style="margin: 10px;">
-                        <img data-deferredsrc="/images/hd-logo.png" class="geofs-dataSourceLogo"/>
+                        <img data-deferredsrc="images/hd-logo.png" class="geofs-dataSourceLogo"/>
                         <input type="radio" id="hdImagery" class="mdl-radio__button"
                             name="dataprovider"
                             data-update="{geofs.api.setDataProvider(value)}"
@@ -1422,7 +1422,7 @@ window.addEventListener('load', function() {
                     <button class="mdl-button mdl-js-button mdl-button--icon geofs-flightplanAction" title="Copy flightplan to clipboard" onclick="geofs.flightPlan.copy();"><i class="material-icons">content_copy</i></button>
                     <label class="mdl-button mdl-js-button mdl-button--icon geofs-flightplanAction" title="Open flightplan file (JSON)" for="planfileupload"><i class="material-icons">folder_open</i></label><input type="file" id="planfileupload" style="display: none;" onchange="geofs.flightPlan.upload(this);"/>
                     <a class="mdl-button mdl-js-button mdl-button--icon geofs-flightplanAction" title="Save flightplan locally" onclick="geofs.flightPlan.download(this);"><i class="material-icons">save</i></a>
-                    <a class="geofs-flightplanAction simBriefImportButton" title="Import SimBrief Flight Plan" onclick="geofs.flightPlan.importSimBrief();"><img data-deferredsrc="/images/simbriefbutton.png" style="width: 22px" /></a>
+                    <a class="geofs-flightplanAction simBriefImportButton" title="Import SimBrief Flight Plan" onclick="geofs.flightPlan.importSimBrief();"><img data-deferredsrc="images/simbriefbutton.png" style="width: 22px" /></a>
                 </div>
             </div>
             <div class="geofs-map-viewport geofs-stopMousePropagation"></div>
@@ -1514,7 +1514,7 @@ window.addEventListener('load', function() {
                 <div class="geofs-adsBlockedMessage" style="text-align: center;">
     
 <a href="/pages/hd.php" target="_top" style="display: inline-block; text-align: center; width: 100%; height: 100%;">
-<img data-deferredsrc="/images/ba/hd_skyscraper.jpg" style="max-width: 160px; max-height: 100%;" /></a></div>
+<img data-deferredsrc="images/ba/hd_skyscraper.jpg" style="max-width: 160px; max-height: 100%;" /></a></div>
                 <script data-deferredsrc="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                 <ins class="adsbygoogle" data-ad-client="ca-pub-1808592532341984" data-ad-slot="5302287636"></ins>
             </div>
@@ -1624,7 +1624,7 @@ window.addEventListener('load', function() {
         <button class="mdl-button mdl-js-button geofs-f-standard-ui geofs-hideForMobile" data-toggle-panel=".geofs-preference-list" title="Open the settings/options panel [O]" data-tooltip-classname="mdl-tooltip--top">Options <i class="material-icons geofs-ui-bottom-icon">settings</i></button>
         <button class="mdl-button mdl-js-button geofs-f-standard-ui" data-toggle-panel=".geofs-map-list" title="Open the navigation panel [N]" data-tooltip-classname="mdl-tooltip--top">Nav <i class="material-icons geofs-ui-bottom-icon">explore</i></button>
 <!--
-        <button class="geofs-button-vr mdl-button mdl-js-button geofs-f-standard-ui geofs-editor-role" onclick="ui.vr.toggle();" data-tooltip-classname="mdl-tooltip--top" title="Toggle VR"><img src="/images/vr-icon.png"/></button>
+        <button class="geofs-button-vr mdl-button mdl-js-button geofs-f-standard-ui geofs-editor-role" onclick="ui.vr.toggle();" data-tooltip-classname="mdl-tooltip--top" title="Toggle VR"><img src="images/vr-icon.png"/></button>
 -->
 
         <button class="geofs-button-fullscreen mdl-button mdl-js-button geofs-f-standard-ui geofs-hideForApp" onclick="ui.toggleFullscreen();" style="float: right;" data-tooltip-classname="mdl-tooltip--top" title="Toggle fullscreen">
