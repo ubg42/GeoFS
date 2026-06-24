@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <!DOCTYPE html>
 <script>window.geofs = window.geofs || {};</script>
 <script>geofs.version = '3.9';</script>
